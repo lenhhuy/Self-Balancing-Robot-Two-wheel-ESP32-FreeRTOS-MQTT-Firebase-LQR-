@@ -7,7 +7,6 @@ A real-time self-balancing robot built on ESP32 dual-core processor, featuring L
 - FreeRTOS dual-core: Core 1 (balance), Core 0 (MQTT/Firebase)
 - Điều khiển từ xa qua MQTT (F/B/L/R/S)
 - Telemetry real-time qua Firebase RTDB
-- GUI monitoring bằng Python/PyQt5
 
 ## Phần cứng
 
@@ -22,7 +21,6 @@ A real-time self-balancing robot built on ESP32 dual-core processor, featuring L
 
 1. Cấu hình WiFi và cloud credentials trong `balancing_car_v5.ino`
 2. Upload lên ESP32 bằng Arduino IDE
-3. (Optional) Chạy `python Main.py` để monitoring
 
 ## Thông số điều khiển
 ```
